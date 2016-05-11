@@ -1276,6 +1276,8 @@ Request::header('Content-Type');
 Request::server('PATH_INFO');
 // 判断请求是否是 AJAX 请求
 Request::ajax();
+// 判断请求是否是 PJAX 请求
+Request::pjax();
 // 判断请求是否使用 HTTPS
 Request::secure();
 // 获取请求方法
