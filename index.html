@@ -1268,6 +1268,8 @@ Request::header('Content-Type');
 Request::server('PATH_INFO');
 // Determine if the request is the result of an AJAX call
 Request::ajax();
+// Determine if the request is the result of an PJAX call
+Request::pjax();
 // Determine if the request is over HTTPS
 Request::secure();
 // Get the request method
